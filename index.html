@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>03.12</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-heart" id="nav_logo"> 03.12</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#album">Álbum de fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#music">Music</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Menu
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#album">Álbum de fotos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#music">Music</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Menu
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    Seja pra mim 
+                </h1>
+
+                <p class="description">
+                    Com carinho, para a mulher mais linda desse mundo.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Álbum de fotos
+                    </a>
+
+                    <a href="tel:+55(11)976754356" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        Quando sentir saudade.
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5511976754356?text=Oi%20amor%20to%20com%20saudade">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/lucas.piolaa/">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/LucasPiola_">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div id="banner">
+                <img src="src/images/mainimage.png" alt="">
+
+            </div>
+        </section>
+
+        <section id="album">
+            <h2 class="section-title">Álbum de fotos</h2>
+            <h3 class="section-subtitle">Momentos especiais</h3>
+
+            <div id="photos">
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/patio.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        1.
+                    </h3>
+
+                    <span class="photo-description">
+                        Câmera de 1800 da Laura.
+                    </span>
+
+
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/copa.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        2.
+                    </h3>
+
+                    <span class="photo-description">
+                        Clima de copa.
+                    </span>
+
+                    
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/bda.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        3.
+                    </h3>
+
+                    <span class="photo-description">
+                        A gente na BDA.
+                    </span>
+
+                    
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/alegria.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        4.
+                    </h3>
+
+                    <span class="photo-description">
+                        Quando fomos jantar com seu pai.
+                    </span>
+
+                    
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/rostinhos.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        5.
+                    </h3>
+
+                    <span class="photo-description">
+                        Fofos.
+                    </span>
+
+                    
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/tenso.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        6.
+                    </h3>
+
+                    <span class="photo-description">
+                        Quase fomos pegos.
+                    </span>
+
+                    
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/chiques.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        7.
+                    </h3>
+
+                    <span class="photo-description">
+                        Chiques.
+                    </span>
+
+                    
+                </div>
+                <div class="photo">
+                    <div class="photo-heart">
+                        <i class="fa-solid fa-heart" ></i>
+                    </div>
+
+                    <img src="src/images/papo-serio.jpeg" class="photo-img" alt="">
+                
+                    <h3 class="photo-title">
+                        8.
+                    </h3>
+
+                    <span class="photo-description">
+                        Papo sério.
+                    </span>
+
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="music">
+            <img src="src/images/spotify.256x256.png" id="music_logo" alt="">
+
+            <div id="music_content">
+                <h2 class="section-title">
+                    Music time
+                </h2>
+                <h3 class="section-subtitle">
+                    Músicas que escuto quando penso em você
+                </h3>
+
+                <div id="musicas">
+                    <div class="musica-nomes">
+                        <img src="src/images/dudu.PNG" class="musica-avatar" alt="">
+
+                        <div class="music-content">
+                            <p>
+                                Dudu - Poesia acústica #6
+                            </p>
+                            
+                            <p>
+                                "Casal mais foda de Konoha..."
+                            </p>
+                        </div>
+                    </div>
+                    <div class="musica-nomes">
+                        <img src="src/images/dudu.PNG" class="musica-avatar" alt="">
+
+                        <div class="music-content">
+                            <p>
+                                Dudu & Chris MC - Te Observando
+                            </p>
+                            
+                            <p>
+                                "Então me diz quantas cores o arco-íris tem..."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    <a href="https://open.spotify.com/playlist/4AIIldr1JvgfptyPwwyWR5?si=QHMoSRl0S_iLyJdk3cr8YA&pi=u-idZfo_2YRNiD">
+                    Ver playlist completa
+                    </a>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Lucas Piola
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="https://wa.me/5511976754356?text=Oi%20amor%20to%20com%20saudade">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/lucas.piolaa/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/LucasPiola_">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
